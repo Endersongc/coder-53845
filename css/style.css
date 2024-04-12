@@ -1,0 +1,329 @@
+/* GLOBALES */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;/* Hack para box model */
+}
+
+*,*::before,*::after {
+    box-sizing: none;/* Hack para box model */
+}
+
+body {
+    font-size: 16px;/* 1rem = 10px */
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    background-color: #041230;
+    /* background-image: linear-gradient(to top, #ffffff 0%, #cfd9df 100%); */
+}
+.menu-color
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+/* Estilos del video */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+
+/* TIPOGRAFIAS */
+h1 {
+    font-size: 3.8rem;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h1,h2,h3 {
+    text-align: left;
+}
+
+
+
+/* HEADER */
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .encabezado {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.header h1{
+    font-weight: lighter;
+}
+
+.header span{
+    font-weight: bold;
+}
+
+.wave {
+    margin-bottom: -2.8rem;
+}
+
+header nav ul{list-style: none;}
+header nav ul li a{text-decoration: none;
+color: #e5e5e5;}
+
+/* Estilos para el menú de navegación */
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos para los párrafos */
+p {
+    color: #ffffff;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin-left: 0%; 
+    margin-right: auto; 
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;}
+
+    /* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px; /* Espacio entre imágenes y otros elementos */
+    width: 300px; /* Tamaño deseado para las imágenes */
+}
+
+/*servicios*/
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos de los servicios */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #041230; /* Color de fondo */
+    color: #fff; /* Color de fuente */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos de los servicios */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos de los servicios */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos de los servicios */
+.servicio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.servicio {
+    background-color: #38478a; /* Color de fondo de cada servicio */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(236, 233, 233, 0.1);
+    transition: transform 0.3s ease;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.servicio:hover {
+    transform: translateY(-5px);
+}
+
+.servicio img {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho */
+    height: auto;
+    display: block;
+}
+
+.contenido {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    color: #fff4f4; /* Color del texto */
+}
+/*blog*/
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos de los artículos del blog */
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-post {
+    background-color: #fff; /* Color de fondo de cada artículo */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+}
+
+.blog-post img {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho */
+    height: auto;
+    display: block;
+}
+
+.blog-post h2 {
+    padding: 20px;
+    margin: 0;
+    color: #041230; /* Color del título */
+}
+
+.blog-post p {
+    padding: 0 20px 20px 20px;
+    margin: 0;
+    color: #555; /* Color del texto */
+}
+/*quienes somos*/
+
+.quienes-somos-section {
+    background-color: #041230; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 50px 0;
+}
+
+.quienes-somos-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quienes-somos-section .content {
+    flex: 1;
+    max-width: 50%;
+    padding: 0 20px;
+}
+
+.quienes-somos-section .content h1 {
+    text-align: center;
+}
+
+.quienes-somos-section .content p {
+    margin-bottom: 20px;
+}
+
+.quienes-somos-section .image-container {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.quienes-somos-section .image-container img {
+    width: 100%; /* Ocupar todo el ancho */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/*contacto*/
+contacto-section {
+    background-color: #f2f2f2; /* Color de fondo */
+    color: #333; /* Color del texto */
+    padding: 50px 0;
+}
+
+.contacto-section h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contacto-section form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-section iframe {
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+}
